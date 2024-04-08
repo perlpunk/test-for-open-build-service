@@ -1,0 +1,8 @@
+pr:
+  steps:
+  - branch_package:
+      source_project: home:tinita:playground
+      source_package: some-cpan-module
+      target_project: home:tinita:playground:CI
+  filters:
+    event: pull_request
