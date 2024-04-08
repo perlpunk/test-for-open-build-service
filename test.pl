@@ -1,4 +1,5 @@
 #!/usr/bin/perl
-use v5.38;
+use strict;
+use warnings;
 
 say "OK!";
